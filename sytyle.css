@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.header-menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.header-menu li a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    transition: .3s;
+}
+
+.header-menu li a:hover{
+    background-color: #ffbb42;
+    color: white;
+    padding: 10px 20px;
+}
+.reg-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main.container{
+    justify-content: center;
+}
+.reg-block h2, .reg-block p{
+    font-family: 'roboto';
+    color: white;
+}
+main{
+    background-color: lightskyblue;
+}
+main .container{
+    justify-content: center;
+
+}
+.quote-form{
+    padding: 20px 10px;
+}
+.quote-form input{
+    padding: 10px;
+}
+.quote-form input[type='button']{
+   color: white;
+   background-color:#ffbb42;
+   border: none;
+   cursor: pointer;
+}
